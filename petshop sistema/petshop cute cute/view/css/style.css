@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    background-color: #f8eaf5;
+    color: #333;
+}
+
+.fundo {
+    width: 700px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e0b8de;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #8b1f74;
+}
+
+h2 {
+    font-size: 18px;
+    color: #7b2c6e;
+}
+
+.menuTopo {
+    border-bottom: 2px solid #d55bb0;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.menuTopo a {
+    color: #8b1f74;
+    margin-right: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menuTopo a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+.caixa {
+    background-color: #ffffff;
+    border: 1px solid #e0b8d6;
+    padding: 15px;
+    width: 320px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 7px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #d55bb0;
+    box-shadow: 0 0 4px rgba(213, 91, 172, 0.5);
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 15px;
+}
+
+td {
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #eef6fc;
+}
+
+tr:hover {
+    background-color: #dceefb;
+}
+
+.logo{
+  width: 350x;
+  height: 200px;
+  margin-left: 20%;
+   
+}
